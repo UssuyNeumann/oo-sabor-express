@@ -22,9 +22,3 @@ class Restaurante:
     
     def alterar_status(self):
         self._ativo = not self._ativo
-
-restaurante_pizza = Restaurante('Pizza','Pizzaria')
-restaurante_pizza.alterar_status()
-restaurante_sushi = Restaurante('Sushi','Oriental')
-
-Restaurante.listar_restaurantes()
