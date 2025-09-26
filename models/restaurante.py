@@ -1,15 +1,11 @@
-
-
-
 from models.avaliacao import Avaliacao
-
 
 class Restaurante: 
     restaurantes = [] 
     # _nome atributo protegido e não totalmente privado
     def __init__(self, nome, categoria): 
-        self._nome = nome 
-        self._categoria = categoria
+        self._nome = nome.title()
+        self._categoria = categoria.upper()
         self._ativo = False
         self._avaliacao = [] 
         Restaurante.restaurantes.append(self)
