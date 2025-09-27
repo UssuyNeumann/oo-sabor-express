@@ -15,11 +15,15 @@ restaurante_japones = Restaurante('Sushi Ja', 'Oriental')
 
 bebida_suco = Bebida('Suco de Laranja',5.0, 'M')
 prato_bife = Prato('Bife a Cavalo',25.0,'Bife com ovo frito, arroz e fritas')
+restaurante_praca.adicionar_cardapio(bebida_suco)
+restaurante_praca.adicionar_cardapio(prato_bife)
+
 
 def main():
     #Restaurante.listar_restaurantes()
-    print(bebida_suco)
-    print(prato_bife)
+    # print(bebida_suco)
+    # print(prato_bife)
+    restaurante_praca.listar_cardapio
 
 if __name__ == '__main__':
     main() 
