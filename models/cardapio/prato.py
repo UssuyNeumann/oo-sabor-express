@@ -6,4 +6,4 @@ class Prato(ItemCardapio):
         self._descricao = descricao
     
     def __str__(self):
-        return f'{self._nome} - {self._descricao} | {self._preco}'
+        return self._nome
