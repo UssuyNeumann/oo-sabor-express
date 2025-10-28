@@ -14,7 +14,9 @@ restaurante_japones = Restaurante('Sushi Ja', 'Oriental')
 # restaurante_praca.receber_avaliacao('Michael',4)
 
 bebida_suco = Bebida('Suco de Laranja',5.0, 'M')
+bebida_suco.aplicar_desconto()
 prato_bife = Prato('Bife a Cavalo',25.0,'Bife com ovo frito, arroz e fritas')
+prato_bife.aplicar_desconto()
 restaurante_praca.adicionar_cardapio(bebida_suco)
 restaurante_praca.adicionar_cardapio(prato_bife)
 
